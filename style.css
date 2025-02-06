@@ -1,0 +1,72 @@
+body {
+    color: #000;
+    box-sizing: border-box;
+    background-color: #FFDF2B;
+    padding: 48px;  
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+main {
+    width: 26.4%;
+    height: 50%;
+    max-width: 410px;
+    margin: auto;
+    
+    display: grid; 
+    grid-template-columns: repeat(10, 48px); 
+    grid-template-rows: repeat(10, 48px); 
+    gap: 0.2em; 
+}
+
+main div {
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 48px; 
+    width: 48px; 
+    height: 48px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: white;
+    border-radius: 0;
+    margin: 0; 
+}
+
+main button {
+    font-size: 24px; 
+}
+
+button{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(55 215 108);
+}
+
+
+h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seagreen;
+}
+
+h2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seagreen;
+}
+
+ul{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seagreen;
+}
+
+
